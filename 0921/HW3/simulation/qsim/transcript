@@ -1,0 +1,35 @@
+# do hw3.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hw3
+# 
+# Top level modules:
+# 	hw3
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hw3_vlg_sample_tst
+# -- Compiling module hw3_vlg_check_tst
+# -- Compiling module hw3_vlg_vec_tst
+# 
+# Top level modules:
+# 	hw3_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.hw3_vlg_vec_tst 
+# Loading work.hw3_vlg_vec_tst
+# Loading work.hw3
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.hw3_vlg_sample_tst
+# Loading work.hw3_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from hw3_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from hw3_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /hw3_vlg_vec_tst File: hw3.vt
+# Simulation passed !
+# ** Note: $finish    : hw3.vt(205)
+#    Time: 1 us  Iteration: 0  Instance: /hw3_vlg_vec_tst/tb_out
