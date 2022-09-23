@@ -1,0 +1,20 @@
+module hw1(CLK,en,count);
+
+input CLK,up ;
+output [3:0] count;
+reg [3:0] count;
+
+always@(posedge CLK)
+begin
+	if(!up) // if up = 0  count down
+	begin
+		if(count == 0000'b)
+			count <= 1111'b;
+		else
+			count<=count- 1;
+	end
+	else // if up = 1 count up
+		count<=count+ 1;
+	
+end
+endmodule

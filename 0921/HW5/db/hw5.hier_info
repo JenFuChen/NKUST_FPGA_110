@@ -1,0 +1,19 @@
+|hw5
+addr[0] <= addr[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+addr[1] <= addr[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+addr[2] <= addr[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+addr[3] <= addr[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => addr[0]~reg0.CLK
+CLK => addr[1]~reg0.CLK
+CLK => addr[2]~reg0.CLK
+CLK => addr[3]~reg0.CLK
+res => addr.OUTPUTSELECT
+res => addr.OUTPUTSELECT
+res => addr.OUTPUTSELECT
+res => addr.OUTPUTSELECT
+data1[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+data1[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+data1[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+data1[3] <= data1.DB_MAX_OUTPUT_PORT_TYPE
+
+
