@@ -1,5 +1,5 @@
 Analysis & Synthesis report for HW
-Wed Oct 26 10:55:26 2022
+Tue Nov  1 10:45:56 2022
 Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 
 
@@ -45,7 +45,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Oct 26 10:55:26 2022       ;
+; Analysis & Synthesis Status        ; Successful - Tue Nov  1 10:45:56 2022       ;
 ; Quartus Prime Version              ; 21.1.1 Build 850 06/23/2022 SJ Lite Edition ;
 ; Revision Name                      ; HW                                          ;
 ; Top-level Entity Name              ; HW                                          ;
@@ -246,7 +246,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;         4 data inputs ; 18                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 10.90                       ;
-; Average LUT depth     ; 7.81                        ;
+; Average LUT depth     ; 7.77                        ;
 +-----------------------+-----------------------------+
 
 
@@ -265,7 +265,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
-    Info: Processing started: Wed Oct 26 10:55:16 2022
+    Info: Processing started: Tue Nov  1 10:45:41 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off HW -c HW
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -275,9 +275,9 @@ Info (12127): Elaborating entity "HW" for the top level hierarchy
 Warning (10235): Verilog HDL Always Construct warning at HW.v(12): variable "sel" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 12
 Warning (10235): Verilog HDL Always Construct warning at HW.v(16): variable "d2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 16
 Warning (10235): Verilog HDL Always Construct warning at HW.v(17): variable "d1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 17
-Warning (10235): Verilog HDL Always Construct warning at HW.v(24): variable "d1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 24
-Warning (10235): Verilog HDL Always Construct warning at HW.v(27): variable "d2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 27
-Warning (10235): Verilog HDL Always Construct warning at HW.v(29): variable "d2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 29
+Warning (10235): Verilog HDL Always Construct warning at HW.v(24): variable "d2" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 24
+Warning (10235): Verilog HDL Always Construct warning at HW.v(27): variable "d1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 27
+Warning (10235): Verilog HDL Always Construct warning at HW.v(29): variable "d1" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 29
 Warning (10230): Verilog HDL assignment warning at HW.v(35): truncated value with size 32 to match size of target (8) File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 35
 Warning (10240): Verilog HDL Always Construct warning at HW.v(8): inferring latch(es) for variable "i", which holds its previous value in one or more paths through the always construct File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 8
 Warning (10240): Verilog HDL Always Construct warning at HW.v(8): inferring latch(es) for variable "R", which holds its previous value in one or more paths through the always construct File: C:/Users/dht98/Downloads/NKUST/NKUST_FPGA_110/1019/HW.v Line: 8
@@ -290,10 +290,10 @@ Info (21057): Implemented 92 device resources after synthesis - the final resour
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 74 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 4858 megabytes
-    Info: Processing ended: Wed Oct 26 10:55:26 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:12
+    Info: Peak virtual memory: 4850 megabytes
+    Info: Processing ended: Tue Nov  1 10:45:56 2022
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:18
 
 
 +------------------------------------------+

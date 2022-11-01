@@ -21,12 +21,12 @@ always@(en)begin
             end
         end
         else     begin 
-            R = d1;
+            R = d2;
             R = R << 1;
             for(i=0;i<4;i=i+1)begin
-                R[7:4]= R[7:4]-d2;
+                R[7:4]= R[7:4]-d1;
                 if(R[7]==1)begin
-                    R[7:4]=R[7:4]+d2;
+                    R[7:4]=R[7:4]+d1;
                     R= R << 1;
                 end
                 else begin 

@@ -1,0 +1,64 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\dht98\Downloads\NKUST\NKUST_FPGA_110\1019\simulation\qsim
+vhard_block
+Z1 IM>G>Qm@hb`H2]07e6HR^W1
+Z2 V1m]i>AnE2>l?mEgJ@k?_m1
+Z3 dC:\Users\dht98\Downloads\NKUST\NKUST_FPGA_110\1019\simulation\qsim
+Z4 w1667270159
+Z5 8HW.vo
+Z6 FHW.vo
+Z7 L0 1709
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1667270164.570000
+Z10 !s107 HW.vo|
+Z11 !s90 -work|work|HW.vo|
+Z12 o-work work -O0
+!i10b 1
+Z13 !s100 dfcHz_ffQ5R8DQ]ad8ekS1
+!s85 0
+!s101 -O0
+vHW
+Z14 I?;mPTb[m?[in^`cTgLBE>1
+Z15 VoFJfVJ`E5Eo?TBIMjk4Ob0
+R3
+R4
+R5
+R6
+L0 32
+R8
+r1
+31
+R9
+R10
+R11
+R12
+n@h@w
+!i10b 1
+Z16 !s100 mcTTHGfLicM=KK_MNm7oV1
+!s85 0
+!s101 -O0
+vHW_vlg_vec_tst
+!i10b 1
+!s100 9oVoEN?XEJ491edYF2?ec2
+I?E?FjPnbbaQ3E?4emfko;2
+V2UGe>M_zOzlnl`gj@LVNo1
+R3
+w1667270157
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R8
+r1
+!s85 0
+31
+!s108 1667270164.736000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R12
+n@h@w_vlg_vec_tst

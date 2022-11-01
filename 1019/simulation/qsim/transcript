@@ -1,0 +1,22 @@
+# do HW.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module HW
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	HW
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module HW_vlg_vec_tst
+# 
+# Top level modules:
+# 	HW_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver -c -t 1ps -novopt work.HW_vlg_vec_tst 
+# Loading work.HW_vlg_vec_tst
+# Loading work.HW
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# after#20
+# ** Note: $finish    : Waveform.vwf.vt(51)
+#    Time: 1 us  Iteration: 0  Instance: /HW_vlg_vec_tst
