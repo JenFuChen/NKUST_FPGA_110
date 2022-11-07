@@ -122,9 +122,6 @@ module matrix  ( clk, rst, ds, dOut, mo);
             m[i3] <= d[i3];
             for ( i4 = lSize; i4 < (lSize*lSize) ; i4 = i4 + 1)
             m[i4] <= m[i4-lSize];
-
-
-
             //m[8] <= m[5];
             //m[7] <= m[4];
             //m[6] <= m[3];
