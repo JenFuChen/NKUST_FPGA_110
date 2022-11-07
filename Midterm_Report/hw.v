@@ -1,0 +1,10 @@
+module hw();
+intput  
+
+
+
+
+
+
+
+endmodule
